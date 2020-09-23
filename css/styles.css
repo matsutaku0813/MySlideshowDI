@@ -72,17 +72,3 @@ nav li {
 .thumbnails img{
   width: 56px;
 }
-
-#seconds{
-  font-size: 15px;
-  margin-top: 30px;
-}
-
-#seconds p{
-  margin-top: 0px;
-}
-
-.inactive{
-  opacity: 0.3;
-  cursor: auto;
-}
