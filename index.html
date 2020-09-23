@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="ja">
+  <meta charset="utf-8">
+  <title>MySlideshow</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <main>
+    <img id="main">
+    <nav>
+      <ul>
+        <li id="play">Play</li>
+        <li id="back">Back</li>
+        <li id="prev">&lt;</li>
+        <li id="next">&gt;</li>
+      </ul>
+    </nav>
+    <ul class="thumbnails"></ul>
+    <div id="seconds">
+      <input v-model="sec">
+      <p>画像1枚を表示させる時間： {{ sec / 1000 }} [秒]<br>
+        入力はミリ秒単位で<br>
+        <b>[Info]</b>1秒=1000ミリ秒</p>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
